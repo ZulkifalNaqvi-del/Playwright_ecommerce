@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-checkout-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation for Demo Web Shop E-Commerce checkout flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
+    "allure:open": "allure open ./allure-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "e-commerce"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "allure-commandline": "^2.25.0",
+    "allure-playwright": "^2.15.1",
+    "dotenv": "^16.3.1"
+  }
+}
+

@@ -1,0 +1,45 @@
+{
+  "registrationData": {
+    "gender": "M",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "testuser@example.com",
+    "password": "TestPass@123",
+    "confirmPassword": "TestPass@123"
+  },
+  "shippingAddress": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "testuser@example.com",
+    "company": "Test Company",
+    "country": "United States",
+    "city": "New York",
+    "address1": "123 Test Street",
+    "address2": "Apt 4B",
+    "zipCode": "10001",
+    "phone": "1234567890"
+  },
+  "billingAddress": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "testuser@example.com",
+    "company": "Test Company",
+    "country": "United States",
+    "city": "New York",
+    "address1": "123 Test Street",
+    "address2": "Apt 4B",
+    "zipCode": "10001",
+    "phone": "1234567890"
+  },
+  "products": [
+    {
+      "name": "Computing and Internet",
+      "category": "Books"
+    },
+    {
+      "name": "Fiction",
+      "category": "Books"
+    }
+  ]
+}
+

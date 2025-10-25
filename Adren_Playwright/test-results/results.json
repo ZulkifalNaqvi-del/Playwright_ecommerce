@@ -1,0 +1,691 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Zulkifal\\Desktop\\Adren_Playwright\\playwright.config.js",
+    "rootDir": "C:/Users/Zulkifal/Desktop/Adren_Playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/junit.xml"
+        }
+      ],
+      [
+        "C:\\Users\\Zulkifal\\Desktop\\Adren_Playwright\\node_modules\\allure-playwright\\dist\\index.js",
+        {
+          "outputFolder": "allure-results",
+          "detail": true,
+          "suiteTitle": true
+        }
+      ],
+      [
+        "C:\\Users\\Zulkifal\\Desktop\\Adren_Playwright\\utils\\CSVReporter.js",
+        {
+          "outputFolder": "test-results",
+          "outputFile": "test-results.csv"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Zulkifal/Desktop/Adren_Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Zulkifal/Desktop/Adren_Playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "modular-checkout.spec.js",
+      "file": "modular-checkout.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "E-Commerce Checkout Flow - Modular Tests",
+          "file": "modular-checkout.spec.js",
+          "line": 62,
+          "column": 6,
+          "specs": [
+            {
+              "title": "1. User Registration",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8027,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "E-Commerce Modular Test Suite Started\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        },
+                        {
+                          "text": "\n========== TEST STARTED: User Registration ==========\n\n"
+                        },
+                        {
+                          "text": "ℹ️  INFO: Creating user with email: testuser_1760750980128@example.com\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: User registered: testuser_1760750980128@example.com\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: User Registration ==========\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:29:35.187Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-a19798018e1064f5b386",
+              "file": "modular-checkout.spec.js",
+              "line": 87,
+              "column": 3
+            },
+            {
+              "title": "2. User Logout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1770,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========== TEST STARTED: User Logout ==========\n\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: User logged out successfully\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: User Logout ==========\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:29:43.649Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-cbc323e7d5e6e52c23b1",
+              "file": "modular-checkout.spec.js",
+              "line": 122,
+              "column": 3
+            },
+            {
+              "title": "3. User Login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2091,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========== TEST STARTED: User Login ==========\n\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: User logged in successfully\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: User Login ==========\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:29:45.461Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-9590c89b14dcf9e628dc",
+              "file": "modular-checkout.spec.js",
+              "line": 151,
+              "column": 3
+            },
+            {
+              "title": "4. Add Items to Cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7103,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========== TEST STARTED: Add Items to Cart ==========\n\n"
+                        },
+                        {
+                          "text": "ℹ️  INFO: Adding first product to cart\n"
+                        },
+                        {
+                          "text": "ℹ️  INFO: Adding second product to cart\n"
+                        },
+                        {
+                          "text": "ℹ️  INFO: Adding third product to cart\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: 3 products added to cart\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: Add Items to Cart ==========\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:29:47.584Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-dc8ebb0bbf7f56b6dc85",
+              "file": "modular-checkout.spec.js",
+              "line": 181,
+              "column": 3
+            },
+            {
+              "title": "5. Validate Shopping Cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1790,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========== TEST STARTED: Validate Shopping Cart ==========\n\n"
+                        },
+                        {
+                          "text": "ℹ️  INFO: Cart contains 3 items\n"
+                        },
+                        {
+                          "text": "ℹ️  INFO: Cart Items:\n"
+                        },
+                        {
+                          "text": "ℹ️  INFO:   1. Computing and Internet - 10.00 x 1\n"
+                        },
+                        {
+                          "text": "ℹ️  INFO:   2. Fiction - 24.00 x 1\n"
+                        },
+                        {
+                          "text": "ℹ️  INFO:   3. Health Book - 10.00 x 1\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: Cart validation completed\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: Validate Shopping Cart ==========\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:29:54.716Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-96f79d5a884c6c60b2a8",
+              "file": "modular-checkout.spec.js",
+              "line": 219,
+              "column": 3
+            },
+            {
+              "title": "6. Proceed to Checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2270,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========== TEST STARTED: Proceed to Checkout ==========\n\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: Navigated to checkout page\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: Proceed to Checkout ==========\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:29:56.540Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-9db22a078e20016b9c55",
+              "file": "modular-checkout.spec.js",
+              "line": 252,
+              "column": 3
+            },
+            {
+              "title": "7. Fill Billing Details",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3142,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========== TEST STARTED: Fill Billing Details ==========\n\n"
+                        },
+                        {
+                          "text": "ℹ️  INFO: Filling billing address...\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: Billing address filled successfully\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: Fill Billing Details ==========\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:29:58.836Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-c523927d82ab392e9ab4",
+              "file": "modular-checkout.spec.js",
+              "line": 277,
+              "column": 3
+            },
+            {
+              "title": "8. Fill Shipping Details",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2272,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========== TEST STARTED: Fill Shipping Details ==========\n\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: Shipping address configured\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: Fill Shipping Details ==========\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:30:02.007Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-13db82060cdeae39cd19",
+              "file": "modular-checkout.spec.js",
+              "line": 311,
+              "column": 3
+            },
+            {
+              "title": "9. Select Shipping Method",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2267,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========== TEST STARTED: Select Shipping Method ==========\n\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: Shipping method selected\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: Select Shipping Method ==========\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:30:04.306Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-ba8714e6bc6c9f1161f5",
+              "file": "modular-checkout.spec.js",
+              "line": 335,
+              "column": 3
+            },
+            {
+              "title": "10. Select Payment Method",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2783,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========== TEST STARTED: Select Payment Method ==========\n\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: Payment method selected\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: Select Payment Method ==========\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:30:06.601Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-1d448ccf5f5da3a5889b",
+              "file": "modular-checkout.spec.js",
+              "line": 359,
+              "column": 3
+            },
+            {
+              "title": "11. Payment Information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2267,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========== TEST STARTED: Payment Information ==========\n\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: Payment information submitted\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: Payment Information ==========\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:30:09.408Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-621997569883481d228e",
+              "file": "modular-checkout.spec.js",
+              "line": 383,
+              "column": 3
+            },
+            {
+              "title": "12. Place Order",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2241,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========== TEST STARTED: Place Order ==========\n\n"
+                        },
+                        {
+                          "text": "✅ SUCCESS: Order placed successfully\n"
+                        },
+                        {
+                          "text": "\n========== TEST PASSED: Place Order ==========\n\n"
+                        },
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "E-Commerce Modular Test Suite Completed\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-18T01:30:11.701Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27cc3da656010b36b6ae-fd770c6962f572d41ae7",
+              "file": "modular-checkout.spec.js",
+              "line": 406,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-18T01:29:33.430Z",
+    "duration": 40929.458,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

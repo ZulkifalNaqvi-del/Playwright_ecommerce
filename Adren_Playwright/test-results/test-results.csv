@@ -1,0 +1,13 @@
+Test File,Test Name,Status,Duration (ms),Start Time,Retries,Error
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","1. User Registration","passed",8027,"2025-10-18T01:29:35.187Z",0,""
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","2. User Logout","passed",1770,"2025-10-18T01:29:43.649Z",0,""
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","3. User Login","passed",2091,"2025-10-18T01:29:45.461Z",0,""
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","4. Add Items to Cart","passed",7103,"2025-10-18T01:29:47.584Z",0,""
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","5. Validate Shopping Cart","passed",1790,"2025-10-18T01:29:54.716Z",0,""
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","6. Proceed to Checkout","passed",2270,"2025-10-18T01:29:56.540Z",0,""
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","7. Fill Billing Details","passed",3142,"2025-10-18T01:29:58.836Z",0,""
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","8. Fill Shipping Details","passed",2272,"2025-10-18T01:30:02.007Z",0,""
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","9. Select Shipping Method","passed",2267,"2025-10-18T01:30:04.306Z",0,""
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","10. Select Payment Method","passed",2783,"2025-10-18T01:30:06.601Z",0,""
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","11. Payment Information","passed",2267,"2025-10-18T01:30:09.408Z",0,""
+"C:/Users/Zulkifal/Desktop/Adren_Playwright/tests/modular-checkout.spec.js","12. Place Order","passed",2241,"2025-10-18T01:30:11.701Z",0,""

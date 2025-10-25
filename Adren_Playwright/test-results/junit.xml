@@ -1,0 +1,168 @@
+<testsuites id="" name="" tests="12" failures="0" skipped="0" errors="0" time="40.929458">
+<testsuite name="modular-checkout.spec.js" timestamp="2025-10-18T01:29:33.689Z" hostname="chromium" tests="12" failures="0" skipped="0" time="38.023" errors="0">
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 1. User Registration" classname="modular-checkout.spec.js" time="8.027">
+<system-out>
+<![CDATA[
+========================================
+E-Commerce Modular Test Suite Started
+========================================
+
+
+========== TEST STARTED: User Registration ==========
+
+ℹ️  INFO: Creating user with email: testuser_1760750980128@example.com
+✅ SUCCESS: User registered: testuser_1760750980128@example.com
+
+========== TEST PASSED: User Registration ==========
+
+]]>
+</system-out>
+</testcase>
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 2. User Logout" classname="modular-checkout.spec.js" time="1.77">
+<system-out>
+<![CDATA[
+========== TEST STARTED: User Logout ==========
+
+✅ SUCCESS: User logged out successfully
+
+========== TEST PASSED: User Logout ==========
+
+]]>
+</system-out>
+</testcase>
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 3. User Login" classname="modular-checkout.spec.js" time="2.091">
+<system-out>
+<![CDATA[
+========== TEST STARTED: User Login ==========
+
+✅ SUCCESS: User logged in successfully
+
+========== TEST PASSED: User Login ==========
+
+]]>
+</system-out>
+</testcase>
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 4. Add Items to Cart" classname="modular-checkout.spec.js" time="7.103">
+<system-out>
+<![CDATA[
+========== TEST STARTED: Add Items to Cart ==========
+
+ℹ️  INFO: Adding first product to cart
+ℹ️  INFO: Adding second product to cart
+ℹ️  INFO: Adding third product to cart
+✅ SUCCESS: 3 products added to cart
+
+========== TEST PASSED: Add Items to Cart ==========
+
+]]>
+</system-out>
+</testcase>
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 5. Validate Shopping Cart" classname="modular-checkout.spec.js" time="1.79">
+<system-out>
+<![CDATA[
+========== TEST STARTED: Validate Shopping Cart ==========
+
+ℹ️  INFO: Cart contains 3 items
+ℹ️  INFO: Cart Items:
+ℹ️  INFO:   1. Computing and Internet - 10.00 x 1
+ℹ️  INFO:   2. Fiction - 24.00 x 1
+ℹ️  INFO:   3. Health Book - 10.00 x 1
+✅ SUCCESS: Cart validation completed
+
+========== TEST PASSED: Validate Shopping Cart ==========
+
+]]>
+</system-out>
+</testcase>
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 6. Proceed to Checkout" classname="modular-checkout.spec.js" time="2.27">
+<system-out>
+<![CDATA[
+========== TEST STARTED: Proceed to Checkout ==========
+
+✅ SUCCESS: Navigated to checkout page
+
+========== TEST PASSED: Proceed to Checkout ==========
+
+]]>
+</system-out>
+</testcase>
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 7. Fill Billing Details" classname="modular-checkout.spec.js" time="3.142">
+<system-out>
+<![CDATA[
+========== TEST STARTED: Fill Billing Details ==========
+
+ℹ️  INFO: Filling billing address...
+✅ SUCCESS: Billing address filled successfully
+
+========== TEST PASSED: Fill Billing Details ==========
+
+]]>
+</system-out>
+</testcase>
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 8. Fill Shipping Details" classname="modular-checkout.spec.js" time="2.272">
+<system-out>
+<![CDATA[
+========== TEST STARTED: Fill Shipping Details ==========
+
+✅ SUCCESS: Shipping address configured
+
+========== TEST PASSED: Fill Shipping Details ==========
+
+]]>
+</system-out>
+</testcase>
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 9. Select Shipping Method" classname="modular-checkout.spec.js" time="2.267">
+<system-out>
+<![CDATA[
+========== TEST STARTED: Select Shipping Method ==========
+
+✅ SUCCESS: Shipping method selected
+
+========== TEST PASSED: Select Shipping Method ==========
+
+]]>
+</system-out>
+</testcase>
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 10. Select Payment Method" classname="modular-checkout.spec.js" time="2.783">
+<system-out>
+<![CDATA[
+========== TEST STARTED: Select Payment Method ==========
+
+✅ SUCCESS: Payment method selected
+
+========== TEST PASSED: Select Payment Method ==========
+
+]]>
+</system-out>
+</testcase>
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 11. Payment Information" classname="modular-checkout.spec.js" time="2.267">
+<system-out>
+<![CDATA[
+========== TEST STARTED: Payment Information ==========
+
+✅ SUCCESS: Payment information submitted
+
+========== TEST PASSED: Payment Information ==========
+
+]]>
+</system-out>
+</testcase>
+<testcase name="E-Commerce Checkout Flow - Modular Tests › 12. Place Order" classname="modular-checkout.spec.js" time="2.241">
+<system-out>
+<![CDATA[
+========== TEST STARTED: Place Order ==========
+
+✅ SUCCESS: Order placed successfully
+
+========== TEST PASSED: Place Order ==========
+
+
+========================================
+E-Commerce Modular Test Suite Completed
+========================================
+
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
